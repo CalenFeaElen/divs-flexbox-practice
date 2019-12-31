@@ -109,6 +109,34 @@ body {
   background: purple;
 }
 
+header, footer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header {
+  color: #fff;
+  font-size: 2em;
+}
+
+main {
+  border-bottom: solid grey 2px;
+}
+
+main {
+  color: #fff;
+  font-size: 1.6em;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+main p span {
+  font-weight: bold;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
@@ -135,6 +163,14 @@ body {
   border-right: solid grey 2px; 
 }
 
+footer {
+  border-top: solid grey 2px;
+  color: #fff;
+}
+
+footer i {
+  padding: 30px 20px 0 0;
+}
 
 
 /* ==========================================================================
